@@ -1,4 +1,4 @@
-package aniche.selenium;
+package weliton.jsp;
 
 import br.com.metricminer2.MMOptions;
 
@@ -9,6 +9,6 @@ public class Standalone {
 		opts.setScm("git");
 		opts.setProjectPath("/home/welitons/git/spcjava");
 		opts.setSysOut(true);
-		new SeleniumStudy().execute(opts);
+		new JPSStudy().execute(opts);
 	}
 }

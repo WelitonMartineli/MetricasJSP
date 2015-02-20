@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package aniche.selenium;
+package weliton.jsp;
 
 import br.com.metricminer2.MMOptions;
 import br.com.metricminer2.Study;
 import br.com.metricminer2.persistence.csv.CSVFile;
 import br.com.metricminer2.scm.SourceCodeRepositoryNavigator;
 
-public class SeleniumStudy implements Study {
+public class JPSStudy implements Study {
 
 	@Override
 	public void execute(MMOptions opts) {

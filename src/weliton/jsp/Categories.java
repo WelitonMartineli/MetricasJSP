@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package aniche.selenium;
+package weliton.jsp;
 
 public enum Categories {
 

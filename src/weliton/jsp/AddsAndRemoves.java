@@ -14,10 +14,7 @@
  * limitations under the License.
  */
 
-package aniche.selenium;
-
-import java.util.HashSet;
-import java.util.Set;
+package weliton.jsp;
 
 import br.com.metricminer2.domain.Commit;
 import br.com.metricminer2.domain.Modification;
@@ -25,7 +22,7 @@ import br.com.metricminer2.persistence.PersistenceMechanism;
 import br.com.metricminer2.scm.CommitVisitor;
 import br.com.metricminer2.scm.SCMRepository;
 
-public class Modifications implements CommitVisitor {
+public class AddsAndRemoves implements CommitVisitor {
 
 	@Override
 	public void process(SCMRepository repo, Commit commit, PersistenceMechanism writer) {
@@ -36,36 +33,27 @@ public class Modifications implements CommitVisitor {
 				
 				String[] lines = m.getDiff().replace("\r", "").split("\n");
 				
-				Set<String> categoryAdded = new HashSet<String>();
-				Set<String> categoryRemoved = new HashSet<String>();
-				
 				for(String line : lines) {
 					for(Categories c : Categories.values()) {
-						if(Utils.isAdd(line) && c.isContainedIn(line)) categoryAdded.add(c.name());
-						else if(Utils.isRemove(line) && c.isContainedIn(line)) categoryRemoved.add(c.name());
-					}
-				}
-
-				for(String category : categoryAdded) {
-					if(categoryRemoved.contains(category)) {
-						writer.write(
+						if(Utils.isAddOrRemove(line) && c.isContainedIn(line)) {
+							writer.write(
 								repo.getLastDir(), 
 								commit.getHash(), 
 								Utils.format(commit.getDate()), 
 								m.getNewPath(), 
-								category
-								);
+								c.name(), 
+								line.startsWith("+") ? "added" : "removed"
+							);
+						}
 					}
 				}
-				
-				
 			}
 		}
 	}
-		
+	
 	@Override
 	public String name() {
-		return "selenium instructions modified";
+		return "selenium adds and removes";
 	}
 
 }

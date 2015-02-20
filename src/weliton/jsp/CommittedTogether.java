@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package aniche.selenium;
+package weliton.jsp;
 
 import br.com.metricminer2.domain.Commit;
 import br.com.metricminer2.domain.Modification;
