@@ -25,11 +25,11 @@ import br.com.metricminer2.scm.SourceCodeRepositoryNavigator;
 
 public class CommittedTogether implements CommitVisitor {
 	
-	public static String SYMBOL_START_SCRIPLETS = "<%";
-	public static String SYMBOL_END_SCRIPLETS = "%>";	
+	private static String SYMBOL_START_SCRIPLETS = "<%";
+	private static String SYMBOL_END_SCRIPLETS = "%>";	
 
-	public static String SYMBOL_START_TAGLIB = "<%@";
-	public static String SYMBOL_END_TAGLIB = "%>";
+	private static String SYMBOL_START_TAGLIB = "<%@";
+	private static String SYMBOL_END_TAGLIB = "%>";
 	
 	
 	private boolean isJsp(Modification m) {
