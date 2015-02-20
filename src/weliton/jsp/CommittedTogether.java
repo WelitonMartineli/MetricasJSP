@@ -25,11 +25,18 @@ import br.com.metricminer2.scm.SourceCodeRepositoryNavigator;
 
 public class CommittedTogether implements CommitVisitor {
 	
+	public static String SYMBOL_START_SCRIPLETS = "<%";
+	public static String SYMBOL_END_SCRIPLETS = "%>";	
+
+	public static String SYMBOL_START_TAGLIB = "<%@";
+	public static String SYMBOL_END_TAGLIB = "%>";
+	
+	
 	private boolean isJsp(Modification m) {
 		return m.getNewPath().toLowerCase().endsWith(".jsp");
 	}
 	
-	private int qtyLinesScriplets(String [] source){
+	private int qtyLines(String [] source, String initialSymbol, String endSymbol, boolean ignoreTaglib){
 
 		boolean countBegin = false;
 		boolean countEnd = false;
@@ -37,44 +44,19 @@ public class CommittedTogether implements CommitVisitor {
 		
 		for (String sourceLine : source) {
 			
-			if (sourceLine.contains("<%") && (!sourceLine.contains("<%@")) ){
-				countBegin = true;
+			if (sourceLine.contains(initialSymbol)){ 
+					
+					// Condição adiciona para evitar na contagem simbolo do tipo taglib, quando a contagem for de scriplets.
+					if (ignoreTaglib){
+						if (!sourceLine.contains(initialSymbol+"@")){
+							countBegin = true;
+						}	
+					}else{
+						countBegin = true;
+					}	
 			}
 			
-			if (sourceLine.contains("%>")){
-				countEnd = true;
-			}
-			
-			if (countBegin == true){
-				countLine++;
-				
-				if (countEnd == true){
-					countBegin = false;
-					countEnd = false;
-					continue;
-
-				}
-			}	
-			
-		}
-		
-		return countLine;
-		
-	}
-	
-	private int qtyLinesTaglib(String [] source){
-
-		boolean countBegin = false;
-		boolean countEnd = false;
-		int countLine = 0;
-		
-		for (String sourceLine : source) {
-			
-			if (sourceLine.contains("<%@")){
-				countBegin = true;
-			}
-			
-			if (sourceLine.contains("%>")){
+			if (sourceLine.contains(endSymbol)){
 				countEnd = true;
 			}
 			
@@ -95,7 +77,7 @@ public class CommittedTogether implements CommitVisitor {
 		
 	}
 
-	public int qtyLinesHtml(int qtyLinesSource, int qtyLinesScriplets, int qtyLinesTaglib){
+	private int qtyLinesHtml(int qtyLinesSource, int qtyLinesScriplets, int qtyLinesTaglib){
 		
 		int qtyLines  =  qtyLinesSource - (qtyLinesScriplets + qtyLinesTaglib);
 		return qtyLines;
@@ -112,8 +94,9 @@ public class CommittedTogether implements CommitVisitor {
 					
 					String[] lines = m.getSourceCode().split("\n");
 
-					int qtyLinesScriplets  = qtyLinesScriplets(lines);
-					int qtyLinesTaglib = qtyLinesTaglib(lines);
+					int qtyLinesScriplets  = qtyLines(lines, SYMBOL_START_SCRIPLETS, SYMBOL_END_SCRIPLETS, true);
+					int qtyLinesTaglib = qtyLines(lines, SYMBOL_START_TAGLIB, SYMBOL_END_TAGLIB, false);
+					
 					int qtyLinesHtml = qtyLinesHtml(lines.length, qtyLinesScriplets, qtyLinesTaglib);
 					
 					writer.write(
