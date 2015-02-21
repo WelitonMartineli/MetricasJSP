@@ -36,6 +36,15 @@ public class CommittedTogether implements CommitVisitor {
 		return m.getNewPath().toLowerCase().endsWith(".jsp");
 	}
 	
+	/***
+	 * Método responsável por levantar a qtd de linhas encontradas de scriplets e taglib
+	 * 
+	 * @param source
+	 * @param initialSymbol
+	 * @param endSymbol
+	 * @param ignoreTaglib
+	 * @return
+	 */
 	private int qtyLines(String [] source, String initialSymbol, String endSymbol, boolean ignoreTaglib){
 
 		boolean countBegin = false;
@@ -77,6 +86,13 @@ public class CommittedTogether implements CommitVisitor {
 		
 	}
 
+	/***
+	 * Método responsável por encontrar a qtd linhas html.
+	 * @param qtyLinesSource
+	 * @param qtyLinesScriplets
+	 * @param qtyLinesTaglib
+	 * @return
+	 */
 	private int qtyLinesHtml(int qtyLinesSource, int qtyLinesScriplets, int qtyLinesTaglib){
 		
 		int qtyLines  =  qtyLinesSource - (qtyLinesScriplets + qtyLinesTaglib);
