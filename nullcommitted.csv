@@ -1,165 +1,165 @@
-2013-06-22 11:02:28,web/ruan/cadastroCliente.jsp, Qtd total de linhas: 43, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 40
-2013-06-22 11:02:28,web/ruan/clienteCompleto.jsp, Qtd total de linhas: 113, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-22 11:02:28,web/ruan/clientes.jsp, Qtd total de linhas: 242, Qtd Linhas Scriplets: 46, Qtd Linhas Taglib: 4, Qtd Linhas Html: 192
-2013-06-22 11:02:28,web/ruan/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-22 11:02:28,web/ruan/index.jsp, Qtd total de linhas: 18, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-22 11:02:05,web/thais/alterar.jsp, Qtd total de linhas: 62, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 2, Qtd Linhas Html: 45
-2013-06-22 11:02:05,web/thais/cadastroCliente.jsp, Qtd total de linhas: 41, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 38
-2013-06-22 11:02:05,web/thais/clienteCompleto.jsp, Qtd total de linhas: 128, Qtd Linhas Scriplets: 19, Qtd Linhas Taglib: 1, Qtd Linhas Html: 108
-2013-06-22 11:02:05,web/thais/deletar.jsp, Qtd total de linhas: 22, Qtd Linhas Scriplets: 2, Qtd Linhas Taglib: 3, Qtd Linhas Html: 17
-2013-06-22 11:02:05,web/thais/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-22 11:02:05,web/thais/index.jsp, Qtd total de linhas: 11, Qtd Linhas Scriplets: 1, Qtd Linhas Taglib: 1, Qtd Linhas Html: 9
-2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 6, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-22 11:01:36,web/jonathan/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 2, Qtd Linhas Taglib: 0, Qtd Linhas Html: 42
-2013-06-22 11:01:36,web/jonathan/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 98
-2013-06-22 11:01:36,web/jonathan/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 2, Qtd Linhas Taglib: 0, Qtd Linhas Html: 44
-2013-06-22 11:01:36,web/jonathan/index.jsp, Qtd total de linhas: 19, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-22 11:01:36,web/jonathan/manutencaoCliente.jsp, Qtd total de linhas: 57, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 43
-2013-06-22 11:01:36,web/jonathan/manutencaoClientes.jsp, Qtd total de linhas: 43, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 2, Qtd Linhas Html: 28
-2013-06-22 11:01:11,web/michel/ExcluiClientes.jsp, Qtd total de linhas: 10, Qtd Linhas Scriplets: 1, Qtd Linhas Taglib: 2, Qtd Linhas Html: 7
-2013-06-22 11:01:11,web/michel/ListaClientes.jsp, Qtd total de linhas: 54, Qtd Linhas Scriplets: 17, Qtd Linhas Taglib: 4, Qtd Linhas Html: 33
-2013-06-22 11:01:11,web/michel/cadastroCliente.jsp, Qtd total de linhas: 43, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 40
-2013-06-22 11:01:11,web/michel/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-22 11:01:11,web/michel/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-22 11:01:11,web/michel/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 6, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-22 10:59:43,web/daniel/ExcluirCliente.jsp, Qtd total de linhas: 62, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 4, Qtd Linhas Html: 43
-2013-06-22 10:59:43,web/daniel/cadastroCliente.jsp, Qtd total de linhas: 45, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 42
-2013-06-22 10:59:43,web/daniel/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-22 10:59:43,web/daniel/enderecoCliente.jsp, Qtd total de linhas: 47, Qtd Linhas Scriplets: 4, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-22 10:59:43,web/daniel/getExcluir.jsp, Qtd total de linhas: 20, Qtd Linhas Scriplets: 1, Qtd Linhas Taglib: 2, Qtd Linhas Html: 17
-2013-06-22 10:59:43,web/daniel/listaCliente.jsp, Qtd total de linhas: 61, Qtd Linhas Scriplets: 14, Qtd Linhas Taglib: 4, Qtd Linhas Html: 43
-2013-06-22 10:58:51,web/gustavo/cadastroCliente.jsp, Qtd total de linhas: 53, Qtd Linhas Scriplets: 8, Qtd Linhas Taglib: 1, Qtd Linhas Html: 44
-2013-06-22 10:58:51,web/gustavo/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-22 10:58:51,web/gustavo/enderecoCliente.jsp, Qtd total de linhas: 56, Qtd Linhas Scriplets: 10, Qtd Linhas Taglib: 1, Qtd Linhas Html: 45
-2013-06-22 10:58:51,web/gustavo/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-22 10:58:51,web/gustavo/listagemClientes.jsp, Qtd total de linhas: 90, Qtd Linhas Scriplets: 20, Qtd Linhas Taglib: 4, Qtd Linhas Html: 66
-2013-06-18 22:48:20,web/viniciusesser/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 22:48:20,web/viniciusesser/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 98
-2013-06-18 22:48:20,web/viniciusesser/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 22:48:20,web/viniciusesser/index.jsp, Qtd total de linhas: 21, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 13
-2013-06-18 22:48:20,web/viniciusesser/tdsClientes.jsp, Qtd total de linhas: 260, Qtd Linhas Scriplets: 48, Qtd Linhas Taglib: 6, Qtd Linhas Html: 206
-2013-06-18 22:47:17,web/jorge/cadastroCliente.jsp, Qtd total de linhas: 45, Qtd Linhas Scriplets: 4, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 22:47:17,web/jorge/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 14, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 22:47:17,web/jorge/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 22:47:17,web/jorge/index.jsp, Qtd total de linhas: 19, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-18 22:47:17,web/jorge/manutencaoCliente.jsp, Qtd total de linhas: 59, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 1, Qtd Linhas Html: 43
-2013-06-18 22:47:17,web/jorge/manutencaoClientes.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 2, Qtd Linhas Html: 29
-2013-06-18 22:46:50,web/willian/index.jsp, Qtd total de linhas: 19, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-18 22:46:50,web/willian/jsp/ListarCliente.jsp, Qtd total de linhas: 70, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 62
-2013-06-18 22:46:50,web/willian/jsp/cadastroCliente.jsp, Qtd total de linhas: 41, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 38
-2013-06-18 22:46:50,web/willian/jsp/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 22:46:50,web/willian/jsp/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 22:45:27,web/leonardo/all_Clientes.jsp, Qtd total de linhas: 293, Qtd Linhas Scriplets: 53, Qtd Linhas Taglib: 6, Qtd Linhas Html: 234
-2013-06-18 22:45:27,web/leonardo/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 22:45:27,web/leonardo/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 22:45:27,web/leonardo/enderecoCliente.jsp, Qtd total de linhas: 45, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 42
-2013-06-18 22:45:27,web/leonardo/index_1.jsp, Qtd total de linhas: 18, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 22:44:43,web/viniciussebold/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 22:44:43,web/viniciussebold/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 2, Qtd Linhas Html: 97
-2013-06-18 22:44:43,web/viniciussebold/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 22:44:43,web/viniciussebold/index.jsp, Qtd total de linhas: 18, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 22:44:43,web/viniciussebold/listarclientes.jsp, Qtd total de linhas: 267, Qtd Linhas Scriplets: 51, Qtd Linhas Taglib: 5, Qtd Linhas Html: 211
-2013-06-18 21:55:16,web/thais/alterar.jsp, Qtd total de linhas: 62, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 2, Qtd Linhas Html: 45
-2013-06-18 21:55:16,web/thais/cadastroCliente.jsp, Qtd total de linhas: 41, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 38
-2013-06-18 21:55:16,web/thais/clienteCompleto.jsp, Qtd total de linhas: 128, Qtd Linhas Scriplets: 19, Qtd Linhas Taglib: 1, Qtd Linhas Html: 108
-2013-06-18 21:55:16,web/thais/deletar.jsp, Qtd total de linhas: 22, Qtd Linhas Scriplets: 2, Qtd Linhas Taglib: 3, Qtd Linhas Html: 17
-2013-06-18 21:55:16,web/thais/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 21:48:14,web/willian/index.jsp, Qtd total de linhas: 19, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-18 21:48:14,web/willian/jsp/ListarCliente.jsp, Qtd total de linhas: 70, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 62
-2013-06-18 21:48:14,web/willian/jsp/cadastroCliente.jsp, Qtd total de linhas: 41, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 38
-2013-06-18 21:48:14,web/willian/jsp/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 21:48:14,web/willian/jsp/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 21:30:23,web/jorge/cadastroCliente.jsp, Qtd total de linhas: 45, Qtd Linhas Scriplets: 4, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 21:30:23,web/jorge/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 14, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 21:30:23,web/jorge/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 21:30:23,web/jorge/index.jsp, Qtd total de linhas: 19, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-18 21:30:23,web/jorge/manutencaoCliente.jsp, Qtd total de linhas: 59, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 1, Qtd Linhas Html: 43
-2013-06-18 21:30:23,web/jorge/manutencaoClientes.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 2, Qtd Linhas Html: 29
-2013-06-18 20:55:32,web/viniciusesser/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 20:55:32,web/viniciusesser/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 98
-2013-06-18 20:55:32,web/viniciusesser/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 20:55:32,web/viniciusesser/index.jsp, Qtd total de linhas: 21, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 13
-2013-06-18 20:55:32,web/viniciusesser/tdsClientes.jsp, Qtd total de linhas: 260, Qtd Linhas Scriplets: 48, Qtd Linhas Taglib: 6, Qtd Linhas Html: 206
-2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 6, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 20:39:19,web/jonathan/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 2, Qtd Linhas Taglib: 0, Qtd Linhas Html: 42
-2013-06-18 20:39:19,web/jonathan/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 98
-2013-06-18 20:39:19,web/jonathan/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 2, Qtd Linhas Taglib: 0, Qtd Linhas Html: 44
-2013-06-18 20:39:19,web/jonathan/index.jsp, Qtd total de linhas: 19, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-18 20:39:19,web/jonathan/manutencaoCliente.jsp, Qtd total de linhas: 57, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 43
-2013-06-18 20:39:19,web/jonathan/manutencaoClientes.jsp, Qtd total de linhas: 43, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 2, Qtd Linhas Html: 28
-2013-06-18 20:20:18,web/michel/ExcluiClientes.jsp, Qtd total de linhas: 10, Qtd Linhas Scriplets: 1, Qtd Linhas Taglib: 2, Qtd Linhas Html: 7
-2013-06-18 20:20:18,web/michel/ListaClientes.jsp, Qtd total de linhas: 54, Qtd Linhas Scriplets: 17, Qtd Linhas Taglib: 4, Qtd Linhas Html: 33
-2013-06-18 20:20:18,web/michel/cadastroCliente.jsp, Qtd total de linhas: 43, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 40
-2013-06-18 20:20:18,web/michel/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 20:20:18,web/michel/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 20:20:18,web/michel/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 6, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 20:12:34,web/daniel/ExcluirCliente.jsp, Qtd total de linhas: 62, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 4, Qtd Linhas Html: 43
-2013-06-18 20:12:34,web/daniel/cadastroCliente.jsp, Qtd total de linhas: 45, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 42
-2013-06-18 20:12:34,web/daniel/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 20:12:34,web/daniel/enderecoCliente.jsp, Qtd total de linhas: 47, Qtd Linhas Scriplets: 4, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 20:12:34,web/daniel/getExcluir.jsp, Qtd total de linhas: 20, Qtd Linhas Scriplets: 1, Qtd Linhas Taglib: 2, Qtd Linhas Html: 17
-2013-06-18 20:12:34,web/daniel/listaCliente.jsp, Qtd total de linhas: 61, Qtd Linhas Scriplets: 14, Qtd Linhas Taglib: 4, Qtd Linhas Html: 43
-2013-06-18 19:59:40,web/gustavo/cadastroCliente.jsp, Qtd total de linhas: 53, Qtd Linhas Scriplets: 8, Qtd Linhas Taglib: 1, Qtd Linhas Html: 44
-2013-06-18 19:59:40,web/gustavo/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 19:59:40,web/gustavo/enderecoCliente.jsp, Qtd total de linhas: 56, Qtd Linhas Scriplets: 10, Qtd Linhas Taglib: 1, Qtd Linhas Html: 45
-2013-06-18 19:59:40,web/gustavo/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-06-18 19:59:40,web/gustavo/listagemClientes.jsp, Qtd total de linhas: 90, Qtd Linhas Scriplets: 20, Qtd Linhas Taglib: 4, Qtd Linhas Html: 66
-2013-06-18 19:54:16,web/ruan/cadastroCliente.jsp, Qtd total de linhas: 43, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 40
-2013-06-18 19:54:16,web/ruan/clienteCompleto.jsp, Qtd total de linhas: 113, Qtd Linhas Scriplets: 15, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 19:54:16,web/ruan/clientes.jsp, Qtd total de linhas: 242, Qtd Linhas Scriplets: 46, Qtd Linhas Taglib: 4, Qtd Linhas Html: 192
-2013-06-18 19:54:16,web/ruan/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 19:54:16,web/ruan/index.jsp, Qtd total de linhas: 18, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 19:51:10,web/leonardo/all_Clientes.jsp, Qtd total de linhas: 293, Qtd Linhas Scriplets: 53, Qtd Linhas Taglib: 6, Qtd Linhas Html: 234
-2013-06-18 19:51:10,web/leonardo/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 19:51:10,web/leonardo/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-06-18 19:51:10,web/leonardo/enderecoCliente.jsp, Qtd total de linhas: 45, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 42
-2013-06-18 19:51:10,web/leonardo/index_1.jsp, Qtd total de linhas: 18, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 19:48:43,web/viniciussebold/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-06-18 19:48:43,web/viniciussebold/clienteCompleto.jsp, Qtd total de linhas: 112, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 2, Qtd Linhas Html: 97
-2013-06-18 19:48:43,web/viniciussebold/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-18 19:48:43,web/viniciussebold/index.jsp, Qtd total de linhas: 18, Qtd Linhas Scriplets: 7, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-06-18 19:48:43,web/viniciussebold/listarclientes.jsp, Qtd total de linhas: 267, Qtd Linhas Scriplets: 51, Qtd Linhas Taglib: 5, Qtd Linhas Html: 211
-2013-06-15 22:12:22,web/thais/alterar.jsp, Qtd total de linhas: 69, Qtd Linhas Scriplets: 8, Qtd Linhas Taglib: 1, Qtd Linhas Html: 60
-2013-06-15 22:12:22,web/thais/cadastroCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-15 22:12:22,web/thais/clienteCompleto.jsp, Qtd total de linhas: 119, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 105
-2013-06-15 22:12:22,web/thais/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-06-15 22:12:22,web/thais/index.jsp, Qtd total de linhas: 11, Qtd Linhas Scriplets: 1, Qtd Linhas Taglib: 1, Qtd Linhas Html: 9
-2013-05-31 16:49:05,web/marcondes/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-05-31 16:49:05,web/marcondes/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-05-28 21:58:36,web/marcondes/cadastroCliente.jsp, Qtd total de linhas: 44, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 41
-2013-05-28 21:58:36,web/marcondes/clienteCompleto.jsp, Qtd total de linhas: 111, Qtd Linhas Scriplets: 13, Qtd Linhas Taglib: 1, Qtd Linhas Html: 97
-2013-05-28 21:58:36,web/marcondes/enderecoCliente.jsp, Qtd total de linhas: 46, Qtd Linhas Scriplets: 3, Qtd Linhas Taglib: 0, Qtd Linhas Html: 43
-2013-05-28 21:58:36,web/marcondes/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 6, Qtd Linhas Taglib: 1, Qtd Linhas Html: 10
-2013-05-28 19:49:20,web/andre/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/andreia/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/bianda/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/carlos/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/cleber/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/diego/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/gustavo/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/jean/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/jefersson/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/jonathan/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/jorge/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/julio/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/leonardo/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/lucas/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/marcio/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/marcondes/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/michel/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/ruan/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/silvana/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/thais/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/viniciusesser/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/viniciussebold/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:49:20,web/willian/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:35:10,web/daniel/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:31:21,web/daniel/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-28 19:29:09,web/daniel/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
-2013-05-21 21:49:33,web/index.jsp, Qtd total de linhas: 17, Qtd Linhas Scriplets: 5, Qtd Linhas Taglib: 1, Qtd Linhas Html: 11
+2013-06-22 11:02:28,web/ruan/cadastroCliente.jsp,43,3,0,40
+2013-06-22 11:02:28,web/ruan/clienteCompleto.jsp,113,15,1,97
+2013-06-22 11:02:28,web/ruan/clientes.jsp,242,46,4,192
+2013-06-22 11:02:28,web/ruan/enderecoCliente.jsp,46,3,0,43
+2013-06-22 11:02:28,web/ruan/index.jsp,18,7,1,10
+2013-06-22 11:02:05,web/thais/alterar.jsp,62,15,2,45
+2013-06-22 11:02:05,web/thais/cadastroCliente.jsp,41,3,0,38
+2013-06-22 11:02:05,web/thais/clienteCompleto.jsp,128,19,1,108
+2013-06-22 11:02:05,web/thais/deletar.jsp,22,2,3,17
+2013-06-22 11:02:05,web/thais/enderecoCliente.jsp,46,3,0,43
+2013-06-22 11:02:05,web/thais/index.jsp,11,1,1,9
+2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/cadastroCliente.jsp,44,3,0,41
+2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/clienteCompleto.jsp,111,13,1,97
+2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/enderecoCliente.jsp,46,3,0,43
+2013-06-22 11:01:36,src/java/br/edu/unidavi/bsi/jonathan/index.jsp,17,6,1,10
+2013-06-22 11:01:36,web/jonathan/cadastroCliente.jsp,44,2,0,42
+2013-06-22 11:01:36,web/jonathan/clienteCompleto.jsp,112,13,1,98
+2013-06-22 11:01:36,web/jonathan/enderecoCliente.jsp,46,2,0,44
+2013-06-22 11:01:36,web/jonathan/index.jsp,19,7,1,11
+2013-06-22 11:01:36,web/jonathan/manutencaoCliente.jsp,57,13,1,43
+2013-06-22 11:01:36,web/jonathan/manutencaoClientes.jsp,43,13,2,28
+2013-06-22 11:01:11,web/michel/ExcluiClientes.jsp,10,1,2,7
+2013-06-22 11:01:11,web/michel/ListaClientes.jsp,54,17,4,33
+2013-06-22 11:01:11,web/michel/cadastroCliente.jsp,43,3,0,40
+2013-06-22 11:01:11,web/michel/clienteCompleto.jsp,111,13,1,97
+2013-06-22 11:01:11,web/michel/enderecoCliente.jsp,46,3,0,43
+2013-06-22 11:01:11,web/michel/index.jsp,17,6,1,10
+2013-06-22 10:59:43,web/daniel/ExcluirCliente.jsp,62,15,4,43
+2013-06-22 10:59:43,web/daniel/cadastroCliente.jsp,45,3,0,42
+2013-06-22 10:59:43,web/daniel/clienteCompleto.jsp,111,13,1,97
+2013-06-22 10:59:43,web/daniel/enderecoCliente.jsp,47,4,0,43
+2013-06-22 10:59:43,web/daniel/getExcluir.jsp,20,1,2,17
+2013-06-22 10:59:43,web/daniel/listaCliente.jsp,61,14,4,43
+2013-06-22 10:58:51,web/gustavo/cadastroCliente.jsp,53,8,1,44
+2013-06-22 10:58:51,web/gustavo/clienteCompleto.jsp,111,13,1,97
+2013-06-22 10:58:51,web/gustavo/enderecoCliente.jsp,56,10,1,45
+2013-06-22 10:58:51,web/gustavo/index.jsp,17,5,1,11
+2013-06-22 10:58:51,web/gustavo/listagemClientes.jsp,90,20,4,66
+2013-06-18 22:48:20,web/viniciusesser/cadastroCliente.jsp,44,3,0,41
+2013-06-18 22:48:20,web/viniciusesser/clienteCompleto.jsp,112,13,1,98
+2013-06-18 22:48:20,web/viniciusesser/enderecoCliente.jsp,46,3,0,43
+2013-06-18 22:48:20,web/viniciusesser/index.jsp,21,7,1,13
+2013-06-18 22:48:20,web/viniciusesser/tdsClientes.jsp,260,48,6,206
+2013-06-18 22:47:17,web/jorge/cadastroCliente.jsp,45,4,0,41
+2013-06-18 22:47:17,web/jorge/clienteCompleto.jsp,112,14,1,97
+2013-06-18 22:47:17,web/jorge/enderecoCliente.jsp,46,3,0,43
+2013-06-18 22:47:17,web/jorge/index.jsp,19,7,1,11
+2013-06-18 22:47:17,web/jorge/manutencaoCliente.jsp,59,15,1,43
+2013-06-18 22:47:17,web/jorge/manutencaoClientes.jsp,44,13,2,29
+2013-06-18 22:46:50,web/willian/index.jsp,19,7,1,11
+2013-06-18 22:46:50,web/willian/jsp/ListarCliente.jsp,70,7,1,62
+2013-06-18 22:46:50,web/willian/jsp/cadastroCliente.jsp,41,3,0,38
+2013-06-18 22:46:50,web/willian/jsp/clienteCompleto.jsp,111,13,1,97
+2013-06-18 22:46:50,web/willian/jsp/enderecoCliente.jsp,46,3,0,43
+2013-06-18 22:45:27,web/leonardo/all_Clientes.jsp,293,53,6,234
+2013-06-18 22:45:27,web/leonardo/cadastroCliente.jsp,44,3,0,41
+2013-06-18 22:45:27,web/leonardo/clienteCompleto.jsp,111,13,1,97
+2013-06-18 22:45:27,web/leonardo/enderecoCliente.jsp,45,3,0,42
+2013-06-18 22:45:27,web/leonardo/index_1.jsp,18,7,1,10
+2013-06-18 22:44:43,web/viniciussebold/cadastroCliente.jsp,44,3,0,41
+2013-06-18 22:44:43,web/viniciussebold/clienteCompleto.jsp,112,13,2,97
+2013-06-18 22:44:43,web/viniciussebold/enderecoCliente.jsp,46,3,0,43
+2013-06-18 22:44:43,web/viniciussebold/index.jsp,18,7,1,10
+2013-06-18 22:44:43,web/viniciussebold/listarclientes.jsp,267,51,5,211
+2013-06-18 21:55:16,web/thais/alterar.jsp,62,15,2,45
+2013-06-18 21:55:16,web/thais/cadastroCliente.jsp,41,3,0,38
+2013-06-18 21:55:16,web/thais/clienteCompleto.jsp,128,19,1,108
+2013-06-18 21:55:16,web/thais/deletar.jsp,22,2,3,17
+2013-06-18 21:55:16,web/thais/enderecoCliente.jsp,46,3,0,43
+2013-06-18 21:48:14,web/willian/index.jsp,19,7,1,11
+2013-06-18 21:48:14,web/willian/jsp/ListarCliente.jsp,70,7,1,62
+2013-06-18 21:48:14,web/willian/jsp/cadastroCliente.jsp,41,3,0,38
+2013-06-18 21:48:14,web/willian/jsp/clienteCompleto.jsp,111,13,1,97
+2013-06-18 21:48:14,web/willian/jsp/enderecoCliente.jsp,46,3,0,43
+2013-06-18 21:30:23,web/jorge/cadastroCliente.jsp,45,4,0,41
+2013-06-18 21:30:23,web/jorge/clienteCompleto.jsp,112,14,1,97
+2013-06-18 21:30:23,web/jorge/enderecoCliente.jsp,46,3,0,43
+2013-06-18 21:30:23,web/jorge/index.jsp,19,7,1,11
+2013-06-18 21:30:23,web/jorge/manutencaoCliente.jsp,59,15,1,43
+2013-06-18 21:30:23,web/jorge/manutencaoClientes.jsp,44,13,2,29
+2013-06-18 20:55:32,web/viniciusesser/cadastroCliente.jsp,44,3,0,41
+2013-06-18 20:55:32,web/viniciusesser/clienteCompleto.jsp,112,13,1,98
+2013-06-18 20:55:32,web/viniciusesser/enderecoCliente.jsp,46,3,0,43
+2013-06-18 20:55:32,web/viniciusesser/index.jsp,21,7,1,13
+2013-06-18 20:55:32,web/viniciusesser/tdsClientes.jsp,260,48,6,206
+2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/cadastroCliente.jsp,44,3,0,41
+2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/clienteCompleto.jsp,111,13,1,97
+2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/enderecoCliente.jsp,46,3,0,43
+2013-06-18 20:39:19,src/java/br/edu/unidavi/bsi/jonathan/index.jsp,17,6,1,10
+2013-06-18 20:39:19,web/jonathan/cadastroCliente.jsp,44,2,0,42
+2013-06-18 20:39:19,web/jonathan/clienteCompleto.jsp,112,13,1,98
+2013-06-18 20:39:19,web/jonathan/enderecoCliente.jsp,46,2,0,44
+2013-06-18 20:39:19,web/jonathan/index.jsp,19,7,1,11
+2013-06-18 20:39:19,web/jonathan/manutencaoCliente.jsp,57,13,1,43
+2013-06-18 20:39:19,web/jonathan/manutencaoClientes.jsp,43,13,2,28
+2013-06-18 20:20:18,web/michel/ExcluiClientes.jsp,10,1,2,7
+2013-06-18 20:20:18,web/michel/ListaClientes.jsp,54,17,4,33
+2013-06-18 20:20:18,web/michel/cadastroCliente.jsp,43,3,0,40
+2013-06-18 20:20:18,web/michel/clienteCompleto.jsp,111,13,1,97
+2013-06-18 20:20:18,web/michel/enderecoCliente.jsp,46,3,0,43
+2013-06-18 20:20:18,web/michel/index.jsp,17,6,1,10
+2013-06-18 20:12:34,web/daniel/ExcluirCliente.jsp,62,15,4,43
+2013-06-18 20:12:34,web/daniel/cadastroCliente.jsp,45,3,0,42
+2013-06-18 20:12:34,web/daniel/clienteCompleto.jsp,111,13,1,97
+2013-06-18 20:12:34,web/daniel/enderecoCliente.jsp,47,4,0,43
+2013-06-18 20:12:34,web/daniel/getExcluir.jsp,20,1,2,17
+2013-06-18 20:12:34,web/daniel/listaCliente.jsp,61,14,4,43
+2013-06-18 19:59:40,web/gustavo/cadastroCliente.jsp,53,8,1,44
+2013-06-18 19:59:40,web/gustavo/clienteCompleto.jsp,111,13,1,97
+2013-06-18 19:59:40,web/gustavo/enderecoCliente.jsp,56,10,1,45
+2013-06-18 19:59:40,web/gustavo/index.jsp,17,5,1,11
+2013-06-18 19:59:40,web/gustavo/listagemClientes.jsp,90,20,4,66
+2013-06-18 19:54:16,web/ruan/cadastroCliente.jsp,43,3,0,40
+2013-06-18 19:54:16,web/ruan/clienteCompleto.jsp,113,15,1,97
+2013-06-18 19:54:16,web/ruan/clientes.jsp,242,46,4,192
+2013-06-18 19:54:16,web/ruan/enderecoCliente.jsp,46,3,0,43
+2013-06-18 19:54:16,web/ruan/index.jsp,18,7,1,10
+2013-06-18 19:51:10,web/leonardo/all_Clientes.jsp,293,53,6,234
+2013-06-18 19:51:10,web/leonardo/cadastroCliente.jsp,44,3,0,41
+2013-06-18 19:51:10,web/leonardo/clienteCompleto.jsp,111,13,1,97
+2013-06-18 19:51:10,web/leonardo/enderecoCliente.jsp,45,3,0,42
+2013-06-18 19:51:10,web/leonardo/index_1.jsp,18,7,1,10
+2013-06-18 19:48:43,web/viniciussebold/cadastroCliente.jsp,44,3,0,41
+2013-06-18 19:48:43,web/viniciussebold/clienteCompleto.jsp,112,13,2,97
+2013-06-18 19:48:43,web/viniciussebold/enderecoCliente.jsp,46,3,0,43
+2013-06-18 19:48:43,web/viniciussebold/index.jsp,18,7,1,10
+2013-06-18 19:48:43,web/viniciussebold/listarclientes.jsp,267,51,5,211
+2013-06-15 22:12:22,web/thais/alterar.jsp,69,8,1,60
+2013-06-15 22:12:22,web/thais/cadastroCliente.jsp,46,3,0,43
+2013-06-15 22:12:22,web/thais/clienteCompleto.jsp,119,13,1,105
+2013-06-15 22:12:22,web/thais/enderecoCliente.jsp,46,3,0,43
+2013-06-15 22:12:22,web/thais/index.jsp,11,1,1,9
+2013-05-31 16:49:05,web/marcondes/clienteCompleto.jsp,111,13,1,97
+2013-05-31 16:49:05,web/marcondes/enderecoCliente.jsp,46,3,0,43
+2013-05-28 21:58:36,web/marcondes/cadastroCliente.jsp,44,3,0,41
+2013-05-28 21:58:36,web/marcondes/clienteCompleto.jsp,111,13,1,97
+2013-05-28 21:58:36,web/marcondes/enderecoCliente.jsp,46,3,0,43
+2013-05-28 21:58:36,web/marcondes/index.jsp,17,6,1,10
+2013-05-28 19:49:20,web/andre/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/andreia/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/bianda/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/carlos/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/cleber/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/diego/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/gustavo/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/jean/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/jefersson/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/jonathan/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/jorge/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/julio/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/leonardo/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/lucas/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/marcio/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/marcondes/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/michel/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/ruan/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/silvana/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/thais/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/viniciusesser/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/viniciussebold/index.jsp,17,5,1,11
+2013-05-28 19:49:20,web/willian/index.jsp,17,5,1,11
+2013-05-28 19:35:10,web/daniel/index.jsp,17,5,1,11
+2013-05-28 19:31:21,web/daniel/index.jsp,17,5,1,11
+2013-05-28 19:29:09,web/daniel/index.jsp,17,5,1,11
+2013-05-21 21:49:33,web/index.jsp,17,5,1,11

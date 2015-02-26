@@ -118,10 +118,10 @@ public class CommittedTogether implements CommitVisitor {
 					writer.write(
 							Utils.format(commit.getDate()),
 							m.getNewPath(),
-							" Qtd total de linhas: " + lines.length,
-							" Qtd Linhas Scriplets: " + qtyLinesScriplets,
-							" Qtd Linhas Taglib: " + qtyLinesTaglib,
-							" Qtd Linhas Html: " + qtyLinesHtml
+							lines.length,
+							qtyLinesScriplets,
+							qtyLinesTaglib,
+							qtyLinesHtml
 							);
 					
 				}
