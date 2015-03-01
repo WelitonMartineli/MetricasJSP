@@ -20,9 +20,7 @@ public class Standalone {
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/ff-core");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/forum");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/gitblit");
-		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/gitblit");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/graylog2-web-interface");
-		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/head");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/head");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/motech-whp");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/mystamps");
