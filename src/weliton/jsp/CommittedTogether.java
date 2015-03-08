@@ -21,7 +21,6 @@ import br.com.metricminer2.domain.Modification;
 import br.com.metricminer2.persistence.PersistenceMechanism;
 import br.com.metricminer2.scm.CommitVisitor;
 import br.com.metricminer2.scm.SCMRepository;
-import br.com.metricminer2.scm.SourceCodeRepositoryNavigator;
 
 public class CommittedTogether implements CommitVisitor {
 	
@@ -42,10 +41,10 @@ public class CommittedTogether implements CommitVisitor {
 	 * @param source
 	 * @param initialSymbol
 	 * @param endSymbol
-	 * @param ignoreTaglib
+	 * @param ignore Taglib and Expression
 	 * @return
 	 */
-	private int qtyLines(String [] source, String initialSymbol, String endSymbol, boolean ignoreTaglib){
+	private int qtyLines(String [] source, String initialSymbol, String endSymbol, boolean ignore){
 
 		boolean countBegin = false;
 		boolean countEnd = false;
@@ -56,8 +55,12 @@ public class CommittedTogether implements CommitVisitor {
 			if (sourceLine.contains(initialSymbol)){ 
 					
 					// Condição adiciona para evitar na contagem simbolo do tipo taglib, quando a contagem for de scriplets.
-					if (ignoreTaglib){
-						if (!sourceLine.contains(initialSymbol+"@")){
+					if (ignore){
+						if (!  (
+								sourceLine.contains(initialSymbol+"@") || 
+								sourceLine.contains(initialSymbol+"=")
+							   ) 
+						   ){
 							countBegin = true;
 						}	
 					}else{
@@ -65,12 +68,12 @@ public class CommittedTogether implements CommitVisitor {
 					}	
 			}
 			
-			if (sourceLine.contains(endSymbol)){
-				countEnd = true;
-			}
-			
 			if (countBegin == true){
 				countLine++;
+
+				if (sourceLine.contains(endSymbol)){
+					countEnd = true;
+				}
 				
 				if (countEnd == true){
 					countBegin = false;
@@ -133,5 +136,5 @@ public class CommittedTogether implements CommitVisitor {
 	public String name() {
 		return "Checagem de arquivos JSPs";
 	}
-
+	
 }

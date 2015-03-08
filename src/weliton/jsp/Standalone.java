@@ -7,7 +7,7 @@ public class Standalone {
 	public static void main(String[] args) {
 		MMOptions opts = new MMOptions();
 		opts.setScm("git");
-		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/atlas");
+		opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/atlas");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/central");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/Donor-Connect");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/eeg-database");
