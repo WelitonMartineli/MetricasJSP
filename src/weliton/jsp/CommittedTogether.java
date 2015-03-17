@@ -54,7 +54,7 @@ public class CommittedTogether implements CommitVisitor {
 			
 			if (sourceLine.contains(initialSymbol)){ 
 					
-					// Condição adiciona para evitar na contagem simbolo do tipo taglib, quando a contagem for de scriplets.
+					// Condição adiciona para evitar na contagem simbolo do tipo taglib eexpression, quando a contagem for de scriplets.
 					if (ignore){
 						if (!  (
 								sourceLine.contains(initialSymbol+"@") || 
