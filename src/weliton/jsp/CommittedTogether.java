@@ -29,6 +29,9 @@ public class CommittedTogether implements CommitVisitor {
 
 	private static String SYMBOL_START_TAGLIB = "<%@";
 	private static String SYMBOL_END_TAGLIB = "%>";
+
+	private static String SYMBOL_START_TAGLIB_COMMENT = "<%--";
+	private static String SYMBOL_END_TAGLIB_COMMENT = "--%>";
 	
 	
 	private boolean isJsp(Modification m) {
@@ -54,17 +57,19 @@ public class CommittedTogether implements CommitVisitor {
 			
 			if (sourceLine.contains(initialSymbol)){ 
 					
-					// Condição adiciona para evitar na contagem simbolo do tipo taglib eexpression, quando a contagem for de scriplets.
+					// Condição adiciona para evitar na contagem de linhas do tipo TAGLIB, EXPRESSION E COMMENT
+				    //, quando a contagem for de SCRIPLETS.
 					if (ignore){
 						if (!  (
 								sourceLine.contains(initialSymbol+"@") || 
-								sourceLine.contains(initialSymbol+"=")
+								sourceLine.contains(initialSymbol+"=") ||
+								sourceLine.contains(initialSymbol+"--") 								
 							   ) 
 						   ){
 							countBegin = true;
 						}	
 					}else{
-						countBegin = true;
+							
 					}	
 			}
 			
@@ -96,9 +101,9 @@ public class CommittedTogether implements CommitVisitor {
 	 * @param qtyLinesTaglib
 	 * @return
 	 */
-	private int qtyLinesHtml(int qtyLinesSource, int qtyLinesScriplets, int qtyLinesTaglib){
+	private int qtyLinesHtml(int qtyLinesSource, int qtyLinesScriplets, int qtyLinesTaglib, int qtdLinesScripletsComment){
 		
-		int qtyLines  =  qtyLinesSource - (qtyLinesScriplets + qtyLinesTaglib);
+		int qtyLines  =  qtyLinesSource - (qtyLinesScriplets + qtyLinesTaglib + qtdLinesScripletsComment);
 		return qtyLines;
 	}
 	
@@ -116,7 +121,9 @@ public class CommittedTogether implements CommitVisitor {
 					int qtyLinesScriplets  = qtyLines(lines, SYMBOL_START_SCRIPLETS, SYMBOL_END_SCRIPLETS, true);
 					int qtyLinesTaglib = qtyLines(lines, SYMBOL_START_TAGLIB, SYMBOL_END_TAGLIB, false);
 					
-					int qtyLinesHtml = qtyLinesHtml(lines.length, qtyLinesScriplets, qtyLinesTaglib);
+					int qtdLinesScripletsComment = qtyLines(lines, SYMBOL_START_TAGLIB_COMMENT, SYMBOL_END_TAGLIB_COMMENT, false);
+					int qtyLinesHtml = qtyLinesHtml(lines.length, qtyLinesScriplets, qtyLinesTaglib, qtdLinesScripletsComment);
+
 					
 					writer.write(
 							Utils.format(commit.getDate()),
@@ -124,7 +131,8 @@ public class CommittedTogether implements CommitVisitor {
 							lines.length,
 							qtyLinesScriplets,
 							qtyLinesTaglib,
-							qtyLinesHtml
+							qtyLinesHtml,
+							qtdLinesScripletsComment
 							);
 					
 				}

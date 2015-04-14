@@ -39,11 +39,12 @@ public class Standalone {
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/toolkit");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/TracksAnalytics");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/WebCash");
-		opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/zanata-server");
+		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/zanata-server");
 
 		//TODO: Repostório not encontrado.
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/biskit");
 		
+		opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/ceconsul");
 		
 		opts.setSysOut(true);
 		new JPSStudy().execute(opts);
