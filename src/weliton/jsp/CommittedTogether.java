@@ -146,7 +146,7 @@ public class CommittedTogether implements CommitVisitor {
 	}
 	
 	
-	//teste
+/*	//teste
 	public static void main(String[] args) {
 		String code =  "<%@ include file='/WEB-INF/jsp/includes.jsp' %>\n"+
 						"<%@ include file='/WEB-INF/jsp/header.jsp' %>\n"+
@@ -195,7 +195,8 @@ public class CommittedTogether implements CommitVisitor {
 						"<p/>\n"+
 						" <%-- asdfa \n"+
 						" asdfa \n"+
-						" <%-- asdfa --%>"+						
+						" asdfa \n"+						
+						" asdfa --%> \n"+						
 						"<br/>\n"+
 						"\n"+
 						"\n"+
@@ -217,6 +218,6 @@ public class CommittedTogether implements CommitVisitor {
 		System.out.println("qtyLinesHtml.................:"+qtyLinesHtml);		
 		
 	}
-	
+*/	
 	
 }

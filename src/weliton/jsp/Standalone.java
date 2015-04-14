@@ -44,8 +44,6 @@ public class Standalone {
 		//TODO: Repostório not encontrado.
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/biskit");
 		
-		opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/ceconsul");
-		
 		opts.setSysOut(true);
 		new JPSStudy().execute(opts);
 	}
