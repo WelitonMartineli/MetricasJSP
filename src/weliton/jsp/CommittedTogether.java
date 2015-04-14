@@ -69,7 +69,7 @@ public class CommittedTogether implements CommitVisitor {
 							countBegin = true;
 						}	
 					}else{
-							
+						countBegin = true;
 					}	
 			}
 			
@@ -144,5 +144,79 @@ public class CommittedTogether implements CommitVisitor {
 	public String name() {
 		return "Checagem de arquivos JSPs";
 	}
+	
+	
+	//teste
+	public static void main(String[] args) {
+		String code =  "<%@ include file='/WEB-INF/jsp/includes.jsp' %>\n"+
+						"<%@ include file='/WEB-INF/jsp/header.jsp' %>\n"+
+						"\n"+
+						"<h2/>Internal error</h2>\n"+
+						"<p/>\n"+
+						"\n"+
+						"<% \n"+
+						"try {\n"+
+						"    // The Servlet spec guarantees this attribute will be available\n"+
+						"    Throwable exception = (Throwable) request.getAttribute('javax.servlet.error.exception'); \n"+
+						"\n"+
+						"    if (exception != null) {\n"+
+						"        if (exception instanceof ServletException) {\n"+
+						"            // It's a ServletException: we should extract the root cause\n"+
+						"            ServletException sex = (ServletException) exception;\n"+
+						"            Throwable rootCause = sex.getRootCause();\n"+
+						"            if (rootCause == null)\n"+
+						"                rootCause = sex;\n"+
+						"            out.println('** Root cause is: '+ rootCause.getMessage());\n"+
+						"            rootCause.printStackTrace(new java.io.PrintWriter(out)); \n"+
+						"        }\n"+
+						"        else {\n"+
+						"            // It's not a ServletException, so we'll just show it\n"+
+						"            exception.printStackTrace(new java.io.PrintWriter(out)); \n"+
+						"        }\n"+
+						"    } \n"+
+						"    else  {\n"+
+						"        out.println('No error information available');\n"+
+						"    } \n"+
+						"\n"+
+						"    // Display cookies\n"+
+						"    out.println('\nCookies:\n');\n"+
+						"    Cookie[] cookies = request.getCookies();\n"+
+						"    if (cookies != null) {\n"+
+						"        for (int i = 0; i < cookies.length; i++) {\n"+
+						"              out.println(cookies[i].getName() + '=[' + cookies[i].getValue() + ']');\n"+
+						"        }\n"+
+						"    }\n"+
+						"        \n"+
+						"} catch (Exception ex) { \n"+
+						"    ex.printStackTrace(new java.io.PrintWriter(out));\n"+
+						"}\n"+
+						"%>\n"+
+						"\n"+
+						"<p/>\n"+
+						" <%-- asdfa \n"+
+						" asdfa \n"+
+						" <%-- asdfa --%>"+						
+						"<br/>\n"+
+						"\n"+
+						"\n"+
+						"<%@ include file='/WEB-INF/jsp/footer.jsp' %>";
+		
+		String lines [] = code.split("\n");
+		CommittedTogether commiter = new CommittedTogether(); 
+		
+		int qtyLinesScriplets  = commiter.qtyLines(lines, SYMBOL_START_SCRIPLETS, SYMBOL_END_SCRIPLETS, true);
+		int qtyLinesTaglib = commiter.qtyLines(lines, SYMBOL_START_TAGLIB, SYMBOL_END_TAGLIB, false);
+		
+		int qtdLinesScripletsComment = commiter.qtyLines(lines, SYMBOL_START_TAGLIB_COMMENT, SYMBOL_END_TAGLIB_COMMENT, false);
+		int qtyLinesHtml = commiter.qtyLinesHtml(lines.length, qtyLinesScriplets, qtyLinesTaglib, qtdLinesScripletsComment);
+
+		System.out.println("lines.length.................:"+lines.length);		
+		System.out.println("qtyLinesScriplets............:"+qtyLinesScriplets);
+		System.out.println("qtyLinesTaglib...............:"+qtyLinesTaglib);		
+		System.out.println("qtdLinesScripletsComment.....:"+qtdLinesScripletsComment);
+		System.out.println("qtyLinesHtml.................:"+qtyLinesHtml);		
+		
+	}
+	
 	
 }
