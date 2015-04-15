@@ -7,6 +7,7 @@ public class Standalone {
 	public static void main(String[] args) {
 		MMOptions opts = new MMOptions();
 		opts.setScm("git");
+		
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/atlas");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/central");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/Donor-Connect");
@@ -39,7 +40,7 @@ public class Standalone {
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/toolkit");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/TracksAnalytics");
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/WebCash");
-		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/zanata-server");
+		opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/zanata-server");
 
 		//TODO: Repostório not encontrado.
 		//opts.setProjectPath("/Users/welitonandrademartineli/Desenvolvimento/git/CloneSeveralProjectUsp/biskit");
